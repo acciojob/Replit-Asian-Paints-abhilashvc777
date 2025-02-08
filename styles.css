@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+#grid-container{
+	display:grid;
+	grid-template-columns: repeat(3,3fr);
+	gap:10px;
+}
+#grid-item{
+	border:1px solid black;
+	padding:50px 30px;
+	border-radius:10px;
+}
+.inp,.btn{
+	text-align:center;
+	margin-top:10px;
+}
+#block_id{
+	padding:10px 15px;
+	font-size:1.2em;
+	border:none;
+	background-color:yellow;
+	border-radius:10px;
+}
+#colour_id,button{
+	padding:10px 20px;
+	border:none;
+	background-color: green;
+	font-size:1.2em;
+	border-radius:10px;
+}
+button{
+	cursor:pointer;
+}
