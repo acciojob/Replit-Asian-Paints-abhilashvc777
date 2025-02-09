@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const grid = document.querySelector(".grid-container")
-const gridItem   =  grid.querySelectorAll("#grid-item");
+const gridItem   =  grid.querySelectorAll(".grid-item");
 const blockInput =  document.querySelector("#block_id");
 const colorInput =  document.querySelector("#colour_id");
 const changeBtn = document.querySelector("#change_button")
@@ -20,5 +20,4 @@ resetBtn.addEventListener("click",()=>{
 	gridItem.forEach((ele,i)=>{
 		ele.style.backgroundColor = "transparent"
 	})
-	// ele.style.backgroundColor = "transparent"
 })
