@@ -4,7 +4,7 @@
 	grid-template-columns: repeat(3,3fr);
 	gap:10px;
 }
-#grid-item{
+.grid-item{
 	border:1px solid black;
 	padding:50px 30px;
 	border-radius:10px;
@@ -29,4 +29,5 @@
 }
 button{
 	cursor:pointer;
+}
 }
