@@ -18,6 +18,7 @@ changeBtn.addEventListener("click",()=>{
 })
 resetBtn.addEventListener("click",()=>{
 	gridItem.forEach((ele,i)=>{
-		ele.style.backgroundColor = "transparent"
+		ele.style.backgroundColor = ""
+		ele.style.opacity = "1"
 	})
 })
